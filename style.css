@@ -72,11 +72,14 @@
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }
-
+.btn__:focus{
+    transform: rotate(2);
+}
 .btn__:hover{
     transition-duration: 0.5s;
     box-shadow: 1px 1px 25px black;
     transform: translateY(-4px);
+    /* transform: rotateY(2); */
 }
 
 @media screen and (max-width: 569px){

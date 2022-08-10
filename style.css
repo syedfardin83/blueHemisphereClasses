@@ -231,6 +231,7 @@ s{
 #logo2{
     width: 50px;
     border-radius: 50px;
+    margin-right: 10px;
 }
 #sub_btn{
     margin-left: 30px;
